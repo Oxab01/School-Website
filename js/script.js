@@ -20,6 +20,16 @@ document.querySelectorAll('.course-3 .box .video video').forEach(vid =>{
 
 });
 
+
+
+const aboutLink = document.querySelector('li:nth-child(2) > a'); // The ABOUT menu link
+        const submenu = document.querySelector('.submenu');
+
+        aboutLink.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevent the default behavior (navigating to another page)
+            submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+        });
+
 document.querySelector('#close-vid').onclick = () =>{
     mainVid.classList.remove('active');
 }

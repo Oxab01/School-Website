@@ -27,6 +27,23 @@ section {
     cursor: pointer;
 }
 
+.gallery-btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    background: #e9edfb;
+    color: #224bcf;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.gallery-btn:hover {
+    color: #fff;
+    background: #224bcf;
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -36,6 +53,7 @@ section {
     cursor: pointer;
     border-radius: .5rem;
     font-size: 1.7rem;
+    font-weight: 600;
 }
 
 .btn:hover {
@@ -701,6 +719,8 @@ section {
     resize: none;
 }
 
+
+
 .contact .row .map {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 42rem;
@@ -761,6 +781,47 @@ section {
     color: crimson;
 }
 
+
+.blog-image {
+    max-width: 100%; 
+    height: auto;    
+    display: block;  
+    margin: 0 auto;  
+  }
+
+
+
+
+  .principal-message {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+.message {
+    flex: 1; 
+}
+
+.principal-image {
+    max-width: 50%; 
+    height: auto; 
+    margin-left: 70px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -813,4 +874,3 @@ section {
 }
 
 
-/*# sourceMappingURL=style.css.map */
